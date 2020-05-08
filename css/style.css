@@ -102,7 +102,8 @@ h6{
 }
 
 .card-title{
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -161,11 +162,13 @@ h6{
 
 .OpinionTitle{
     font-size: 17px;
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .OpinionAutor{
     font-size: 13px;
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
     color: #555;
     padding: 4px 0 0;
@@ -253,9 +256,307 @@ border-color: #d9d9d9;
 
 }
 
+/* Sponsored Insight */
+.InsideSponsored, .card-img-top{    
+    position: relative;
+}
+
+.imgInsideSponsored{    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.9);
+    color: #3581f4;
+    padding: 8px 15px 9px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/* More Stories */
+.moreStoriesImg1{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1587965/centers-disease-control-prevention.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+.moreStoriesImg2{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588084/texas-restaurant.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    /* background-position-x: -20px; */
+}
+.moreStoriesImg3{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588042/usps.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg4{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588014/gretchen-whitmer.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg5{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588023/red-square-moscow.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg6{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1587995/noaa-saturday-snowstorm.gif');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg7{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1587881/betsy-devos-2020.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+
+.moreStoriesImg8{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588007/asian-giant-hornets-make-its-nest-tree-trunk.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg9{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588001/moon.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg10{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1587990/china-europe-eu-investment-economic-coronavirus-trade.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+.moreStoriesImg11{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1587985/rio-de-janeiro-brazil-april-2020.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;    
+    background-position-x: -20px;
+}
+
+.moreStoriesTitleComment{
+    /* border: 1px solid red; */
+    /* margin-left:15px; */
+}
+
+.moreStoriesTitle{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.moreStoriesComment{
+    font-size: 13px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    padding: 10px 0 0;
+}
+
+
+/* Heroes of the Pandemic */
+/* .card-body{
+    padding-left: 0;
+} */
+.heroesTitle{   
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #272727;
+    font-weight: normal;
+}
+
+.heroesText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.5);
+}
+
+.insideHeroes, .card-img-top{    
+    position: relative;
+}
+
+.imgInsideHeroes{    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #c2d4d7;
+    color: #272727;
+    padding: 0 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Culture & Travel */
+.cultureTitle{   
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: #272727;
+    font-weight: normal;
+}
+
+.cultureText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.5);
+}
+
+.insideCulture, .card-img-top{    
+    position: relative;
+}
+
+.imgInsideCulture{    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #c2d4d7;
+    color: #272727;
+    padding: 0 7px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Latest News */
+.latestImg1{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588399/next-snlathome-will-season-45-finaleheres-how-watch.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+.latestImg2{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1577834/michael-jordan-phil-jackson-chicago-bulls.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+.latestImg3{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588405/memorial-ahmaud-arbery.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+.latestImg4{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588374/joe-biden-donald-trump-female-voters-2020.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+.latestImg5{
+    min-width: 95px;
+    min-height: 95px;
+    max-height: 95px;
+    /* border: 1px solid red; */
+    background-image: url('https://d.newsweek.com/en/full/1588413/man-tasered-greater-manchester-police.jpg');
+    background-size: cover;
+    float: left;
+    margin: 0 16px 0 0;   
+    background-position-x: -20px; 
+}
+
+.latestTitle{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card-img{
     border: 1px solid red;
-    width: 95px;
-    /* height: 95px; */
-    
+    width: 95px;    
 }

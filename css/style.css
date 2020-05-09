@@ -80,7 +80,7 @@ h6{
 } */
 
 .Inside, .card-img-top{    
-    position: relative;
+    position: relative;    
 }
 
 .imgInsideCard{    
@@ -91,6 +91,7 @@ h6{
     color: #f72210;
     padding: 8px 15px 9px;
     font-size: 17px;
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
 
 }
@@ -542,19 +543,155 @@ border-color: #d9d9d9;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Sponsored Insight sn md */
+.signUpCard{
+    border: 1px solid red;
+    width: 300px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #F4F5F6;
+}
 
+.signUpIcon{
+    display: block;
+    margin-right: 10px;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
 
+.signUpTitle{
+    display: flex;
+    font-size: 19px;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
+.signUpButton{
+    padding: 10px 10px 10px 12px;
+    background-color: #666666;
+    margin: 0 0 10px;
+    color: white;
+    font: bold 18px 'Roboto Condensed', sans-serif;
+    display: inline-block;    
+    border-radius: 0;
+}
 
+.signUpText{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
+/* Features */
+.featuresSpan {
+    background-color: #f72210;
+    color: white;
+    padding: 5px;
+    margin-right: 7px;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+}
 
+.featuresTitle {    
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: #f72210;
+}
 
+.featuresTitleBlack {    
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: #000;
+}
 
+.featuresText {
+    color: #000 ;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
+.insideFeatures, .card-img-top{    
+    position: relative;
+}
 
+.featuresSpanInside {
+    background-color: #f72210;
+    color: white;
+    padding: 4px;
+    margin-right: 7px;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
+/* Subscribe */
+.subscribeTitle{
+    /* border: 1px solid red; */
+    text-align: center;
+}
 
+.subscribeText{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #333;
+    text-align: center;
+    /* border: 1px solid red; */
+}
 
+.subscribeButton{
+    background-color: #f72310;
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 10px 5px 12px;
+    margin-top: 20px;
+}
+
+.subscribeImgs{
+    position: relative;
+    width: 260px;
+    height: 240px;
+    /* border: 1px solid blue; */
+    margin: 20px auto 0 auto;
+    /* padding-left: 200px; */
+    
+    box-sizing: border-box;   
+}
+
+.subscribeImg1 {
+    /* border: 1px solid black; */
+    width: 170px;  
+    height: 230px;  
+    background-image: url('https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.subscribeImg2 {
+    /* border: 1px solid black; */
+    width: 170px;  
+    height: 230px;  
+    background-image: url('https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+/* Footer */
+.footerNewsweek{
+    font-size: 36px;
+    color: #f72210;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .card-img{
     border: 1px solid red;

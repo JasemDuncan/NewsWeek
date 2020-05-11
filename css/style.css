@@ -11,25 +11,21 @@ body{
 
 /* Main Content */
 .mainContent{
-    border: 3px solid black;
     max-width: 1315px;
-    /* min-width: 470px; */
     margin: 0 auto;
 }
+
 /* NavBar */
 .navbar{
     background-color:#f72210 ; 
-    border: 1px solid black;
 
 }
-.navbar-brand{
-    border: 1px solid black;
+.navbar-brand {
     font-size:28px;
     font-weight: bold;
 }
 
 .LinkSubscribe{
-    border: 1px solid black;
 }
 
 .btnLogin{
@@ -47,11 +43,10 @@ body{
 }
 
 .navbar-toggler{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .collapse{
-    border: 1px solid black;
     background-color: white;
 
 }
@@ -64,7 +59,6 @@ body{
 /* TOP STORY */
 .card{
     /* position: relative; */
-    border: 1px solid green;
 }
 
 h6{
@@ -99,7 +93,6 @@ h6{
 .card-img-top{
     display: block;
     position: relative;
-    border: 1px solid yellow;
 }
 
 .card-title{
@@ -117,15 +110,12 @@ h6{
 /* Opinion */
 .ulTitle{
     border-bottom: none;
-    /* border: 1px solid red; */
-    /* margin:0; */
 }
 /* OpinionImages */
 .OpinionImg1{
     min-width: 65px;
     min-height: 65px;
     max-height: 65px;
-    border: 1px solid red;
     background-image: url('https://d.newsweek.com/en/full/110048/michael-e-mann.png');
     background-size: cover;
 
@@ -134,7 +124,6 @@ h6{
     min-width: 65px;
     min-height: 65px;
     max-height: 65px;
-    border: 1px solid red;
     background-image: url('https://d.newsweek.com/en/full/1588097/ray-jackson-yeary.png');
     background-size: cover;
 }
@@ -142,7 +131,6 @@ h6{
     min-width: 65px;
     min-height: 65px;
     max-height: 65px;
-    border: 1px solid red;
     background-image: url('https://d.newsweek.com/en/full/1588061/goldberg-dubowitz.png');
     background-size: cover
 }
@@ -150,14 +138,12 @@ h6{
     min-width: 65px;
     min-height: 65px;
     max-height: 65px;
-    border: 1px solid red;
     background-image: url('https://d.newsweek.com/en/full/1587924/mark-tushnet.png');
     background-size: cover
 }
 /* end */
 
-.OpinionTitleAutor{
-    /* border: 1px solid red; */
+.OpinionTitleAutor {
     margin-left:15px;
 }
 
@@ -177,7 +163,6 @@ h6{
 
 /* The Debate */
 .DebateTitle {
-    border: 3px solid red;
     margin-left: 15px;
     font-size: 17px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -196,7 +181,6 @@ h6{
     background-image: url('https://d.newsweek.com/en/full/1563625/nigel-farage.png');
     background-size: cover;
     margin-top: -30px;
-    /* background-position-x: -20px; */
 }
 
 .DebateImg3{
@@ -213,7 +197,6 @@ h6{
     background-image: url('https://d.newsweek.com/en/full/1568478/bonnie-kristian.png');
     background-size: cover;
     margin-top: -30px;
-    /* background-position-x: -20px; */
 }
 
 .debateVS{
@@ -236,25 +219,24 @@ h6{
     font: bold 14px "Roboto Condensed",sans-serif;
 }
 
-.ulDebateRed{
+.ulDebateRed {
+    border: 0;
     border-bottom: 4px solid #f72210;
     padding-top: 0;
 }
 
-.ulDebateBlue{
+.ulDebateBlue {
+    border: 0;
     border-bottom: 4px solid #1c87fb;
     padding-top: 0;
 }
 
-.ulDebateDouble{
-border-style: double;
-/* border:5px solid; */
-border-left-width: 0;
-border-right-width: 0;
-border-bottom-width: 5px;
-border-color: #d9d9d9;
-/* border:0 0  6px 0; */
-
+.ulDebateDouble {
+    border-style: double;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 5px;
+    border-color: #d9d9d9;
 }
 
 /* Sponsored Insight */
@@ -272,7 +254,6 @@ border-color: #d9d9d9;
     font-size: 17px;
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 /* More Stories */
@@ -280,7 +261,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1587965/centers-disease-control-prevention.jpg');
     background-size: cover;
     float: left;
@@ -291,18 +271,15 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588084/texas-restaurant.jpg');
     background-size: cover;
     float: left;
     margin: 0 16px 0 0;    
-    /* background-position-x: -20px; */
 }
 .moreStoriesImg3{
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588042/usps.jpg');
     background-size: cover;
     float: left;
@@ -313,7 +290,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588014/gretchen-whitmer.jpg');
     background-size: cover;
     float: left;
@@ -324,7 +300,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588023/red-square-moscow.jpg');
     background-size: cover;
     float: left;
@@ -335,7 +310,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1587995/noaa-saturday-snowstorm.gif');
     background-size: cover;
     float: left;
@@ -346,7 +320,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1587881/betsy-devos-2020.jpg');
     background-size: cover;
     float: left;
@@ -358,7 +331,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588007/asian-giant-hornets-make-its-nest-tree-trunk.jpg');
     background-size: cover;
     float: left;
@@ -369,7 +341,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588001/moon.jpg');
     background-size: cover;
     float: left;
@@ -380,7 +351,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1587990/china-europe-eu-investment-economic-coronavirus-trade.jpg');
     background-size: cover;
     float: left;
@@ -391,7 +361,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1587985/rio-de-janeiro-brazil-april-2020.jpg');
     background-size: cover;
     float: left;
@@ -412,7 +381,6 @@ border-color: #d9d9d9;
 
 .moreStoriesComment{
     font-size: 13px;
-    /* font-weight: bold; */
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     padding: 10px 0 0;
@@ -485,7 +453,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588399/next-snlathome-will-season-45-finaleheres-how-watch.jpg');
     background-size: cover;
     float: left;
@@ -496,7 +463,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1577834/michael-jordan-phil-jackson-chicago-bulls.jpg');
     background-size: cover;
     float: left;
@@ -507,7 +473,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588405/memorial-ahmaud-arbery.jpg');
     background-size: cover;
     float: left;
@@ -518,7 +483,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588374/joe-biden-donald-trump-female-voters-2020.jpg');
     background-size: cover;
     float: left;
@@ -529,7 +493,6 @@ border-color: #d9d9d9;
     min-width: 95px;
     min-height: 95px;
     max-height: 95px;
-    /* border: 1px solid red; */
     background-image: url('https://d.newsweek.com/en/full/1588413/man-tasered-greater-manchester-police.jpg');
     background-size: cover;
     float: left;
@@ -544,8 +507,7 @@ border-color: #d9d9d9;
 }
 
 /* Sponsored Insight sn md */
-.signUpCard{
-    border: 1px solid red;
+.signUpCard {
     width: 300px;
     height: 160px;
     margin: 0 auto;
@@ -628,8 +590,7 @@ border-color: #d9d9d9;
 }
 
 /* Subscribe */
-.subscribeTitle{
-    /* border: 1px solid red; */
+.subscribeTitle {
     text-align: center;
 }
 
@@ -639,7 +600,6 @@ border-color: #d9d9d9;
     font-weight: 100;
     color: #333;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .subscribeButton{
@@ -656,15 +616,11 @@ border-color: #d9d9d9;
     position: relative;
     width: 260px;
     height: 240px;
-    /* border: 1px solid blue; */
     margin: 20px auto 0 auto;
-    /* padding-left: 200px; */
-    
     box-sizing: border-box;   
 }
 
 .subscribeImg1 {
-    /* border: 1px solid black; */
     width: 170px;  
     height: 230px;  
     background-image: url('https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg');
@@ -675,7 +631,6 @@ border-color: #d9d9d9;
 }
 
 .subscribeImg2 {
-    /* border: 1px solid black; */
     width: 170px;  
     height: 230px;  
     background-image: url('https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg');
@@ -694,10 +649,10 @@ border-color: #d9d9d9;
     margin-bottom: 20px;
 }
 
-.card-img{
+/* .card-img{
     border: 1px solid red;
     width: 95px;    
-}
+} */
 
 .facebookIcon{
     font-size:26px;
@@ -729,15 +684,10 @@ border-color: #d9d9d9;
     color: rgb(83, 83, 83);
 }
 
-.footerMenu{
-    /* display: block; */
-    /* margin-block-start: 1em; */
-    /* margin-block-end: 1em; */
+.footerMenu {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    /* padding-inline-start: 40px; */
     margin-left: 0;
-
 }
 
 .footerMenuList{
@@ -746,7 +696,6 @@ border-color: #d9d9d9;
     display: inline-block;
     margin: 0 0 6px 0;
     font-size: 14px;
-    /* line-height: 15px; */
     color: #666;
     padding-right: 20px;
 }
@@ -827,4 +776,10 @@ border-color: #d9d9d9;
     width: 100%;
     height: 250px;
     background-position: 50%;
+}
+
+/* Border In List */
+.borderBottonList{
+    border: 0;
+    border-bottom: 1px solid rgb(215, 215, 215);
 }

@@ -756,7 +756,7 @@ border-color: #d9d9d9;
 }
 
 /* Style for md */
-.insideHeroesMd, .imgHeroesMd{    
+.insideHeroesMd {    
     position: relative;
 }
 
@@ -794,4 +794,37 @@ border-color: #d9d9d9;
     width: 100%;
     height: 120px;
     background-position: 70%;
+}
+
+/* Culture & Travel md */
+.imgCultureMd1 {
+    background-size: cover;
+    background-image: url('https://d.newsweek.com/en/full/1586378/naomi-tomky.png');
+    width: 100%;
+    height: 120px;
+    background-position: 70%;
+}
+
+.imgCultureMd2 {
+    background-size: cover;
+    background-image: url('https://d.newsweek.com/en/full/1576391/cul-uncharted-coffee-banner.jpg');
+    width: 100%;
+    height: 120px;
+    background-position: 50%;
+}
+
+.imgCultureMd3 {
+    background-size: cover;
+    background-image: url('https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg');
+    width: 100%;
+    height: 120px;
+    background-position: 70%;
+}
+
+.imgNewsletter{
+    background-size: cover;
+    background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png');
+    width: 100%;
+    height: 250px;
+    background-position: 50%;
 }

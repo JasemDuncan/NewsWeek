@@ -8,7 +8,8 @@ body{
     line-height: 18px;
     font-family: Arial,Helvetica,sans-serif;
     /* background-color: #f4f5f7; */
-    background-color:yellowgreen;
+    background-color: white;
+    /* background-color:yellowgreen; */
 }
 
 /* Main Content */
@@ -28,21 +29,22 @@ body{
     font-weight: bold;
 }
 
-.LinkSubscribe{
-}
-
 .btnLogin{
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
+    padding-right: 8px;
+    padding-left: 0;
 }
 
 .btnSubscribe{
     background-color: white;
     color: #f72210;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-    height: 27px;
+    height: 25px;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .navbar-toggler{
@@ -636,9 +638,9 @@ h6{
 .subscribeImgs{
     position: relative;
     width: 260px;
-    height: 240px;
+    height: 240px;    
     margin: 20px auto 0 auto;
-    box-sizing: border-box;   
+    margin-bottom: -70px;    
 }
 
 .subscribeImg1 {
@@ -791,6 +793,7 @@ h6{
     background-position: 70%;
 }
 
+/* NewsLetter sm */
 .imgNewsletter{
     background-size: cover;
     background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png');
@@ -799,8 +802,25 @@ h6{
     background-position: 50%;
 }
 
+.newsletterInput{
+    font-size: 14px;
+}
+
+.newsletterButton{
+    background-color: #f72310;
+    border-radius: 0;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px 10px 5px 12px;
+    margin-top: 20px;
+}
+
 /* Border In List */
 .borderBottonList {
     border: 0;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(215, 215, 215);
 }
+
+

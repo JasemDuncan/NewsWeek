@@ -1,4 +1,4 @@
-# Smashing Magazine
+# Newsweek
  This is a project meant to use bootstrap v4 in for large, medium and small screen. Is a clone of the Newsweek Site.
 
 ![screenshot](./img/Screenshot.png)

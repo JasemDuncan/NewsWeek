@@ -1,5 +1,5 @@
 # Smashing Magazine
- This is a project meant to use bootstrap v4 in for large, medium and small screen.
+ This is a project meant to use bootstrap v4 in for large, medium and small screen. Is a clone of the Newsweek Site.
 
 ![screenshot](./img/Screenshot.png)
     
@@ -11,11 +11,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/Smashing-Magazine/6008ac5653cc5ae3462beaac86975eee1f2a9c93/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/NewsWeek/db1a18d981a5ff4c3cee5ff14ddf8a75dfe20b0d/index.html)
 
 ## Milestone
 
-  To match with the original click [here](https://www.smashingmagazine.com/)
+  To match with the original click [here](https://www.newsweek.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -53,9 +53,9 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author**
 
 - Gmail: [Jasem Valencia](mailto:jasemvalencia@gmail.com)
-- Github: [@githubhandle](https://github.com/JasemDuncan)
-- Twitter: [@twitterhandle](https://twitter.com/JasemValencia)
-- Linkedin: [@linkedin](www.linkedin.com/in/Jasem-Duncan-Valencia)
+- Github: [JasemDucan](https://github.com/JasemDuncan)
+- Twitter: [@JasemDuncan](https://twitter.com/JasemValencia)
+- Linkedin: [Jasem-duncan-valencia](www.linkedin.com/in/Jasem-Duncan-Valencia)
 
 ## 🤝 Contributing
 

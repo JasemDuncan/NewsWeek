@@ -1,7 +1,7 @@
 # Smashing Magazine
  This is a project meant to use bootstrap v4 in for large, medium and small screen.
 
-![screenshot](./Assets/images/Screenshot.png)
+![screenshot](./img/Screenshot.png)
     
 
 ## Built With
@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
     1. Click on the install or download button under the repository name and grab the url
     by clicking on the clipboard icon
 
-![Step-1](./Assets/images/howtoinstall.png)
+![Step-1](./img/howtoinstall.png)
 
     2.open your terminal
 

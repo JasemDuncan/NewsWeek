@@ -1022,3 +1022,235 @@ h6 {
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(215, 215, 215);
 }
+
+/* Sports */
+.titleTwoArticles {
+  font-size: 20px;
+}
+
+.noBorderLast {
+  border: 0;
+  padding-left: 0;
+}
+
+.sportImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1576712/mlb-opening-day.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.sportImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589907/new-york-jets-miami.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.sportImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589866/college-football-national-championship.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.cultureImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590157/melissa-etheridge.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.cultureImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590060/colbert-says-republicans-are-sick-fauci.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.cultureImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590063/mary-kate-olsen.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.techScienceImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589999/argentine-black-white-tegu.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.techScienceImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1575729/elon-musk.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.techScienceImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589971/long-march-5b-rocket.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.businessImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1588672/larry-kudlow-donald-trump.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.businessImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1588226/new-york-state-department-labor.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.businessImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1587779/eu-coronavirus.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.worldImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590028/nadine-dorries-child-sexual-exploitation.png');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.worldImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590035/nitin-gadkari-india-lab-conspiracy-theory-coronavirus.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.worldImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590018/human-remains-found-suitcase.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.usImg1 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589938/biden-trump-steady-cash-influx-amid-pandemic.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.usImg2 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1590159/coronavirus-pandemic-cripples-us-economy-unemployment-rate-soars-147-percent.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.usImg3 {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589654/hurricane-season.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.topStoryImg {
+  min-width: 95px;
+  min-height: 95px;
+  max-height: 95px;
+  background-image: url('https://d.newsweek.com/en/full/1589992/wisconsin-gov-tony-evers.jpg');
+  background-size: cover;
+  float: left;
+  margin: 0 16px 0 0;
+  background-position-x: -20px;
+}
+
+.borderTop {
+  border: 0;
+  border-top: 1px solid rgb(213, 213, 213);
+  padding-left: 0;
+}
+
+.borderTopBottom {
+  border: 0;
+  border-top: 1px solid rgb(213, 213, 213);
+  border-bottom: 1px solid rgb(213, 213, 213);
+  padding-left: 0;
+}

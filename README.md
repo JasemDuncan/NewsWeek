@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/NewsWeek/db1a18d981a5ff4c3cee5ff14ddf8a75dfe20b0d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/NewsWeek/b2c50a1f33a1da4a5cf1ab6d70d6352685ea2229/index.html)
 
 ## Milestone
 
